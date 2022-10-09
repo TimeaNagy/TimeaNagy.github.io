@@ -1,0 +1,8 @@
+<div [id]="delay" class="service glow" [className]="delay"
+[ngClass]="{'animate-service': animation, 'visibility': !animation}">
+    <div class="service-icon mb-3">
+        <mat-icon>{{icon}}</mat-icon>
+    </div>
+    <h3 class="mb-2">{{ 'productservices.' + service + '.title' | translate }}</h3>
+    <span>{{ 'productservices.' + service + '.text' | translate }}</span>
+</div>

@@ -1,40 +1,4 @@
 <app-section id="contact">
-  <h2 translate="contact.title" class="no-margin"></h2>
-  <div class="mb-4">
-    <span translate="contact.subtitle"></span>
-  </div>
-  <div class="row contact-row">
-    <div class="col-lg-6 col-md-12">
-      <img src="assets/images/contact.png" class="contact-img">
-      <!-- <app-map></app-map> -->
-    </div>
-    <div class="col-lg-6 col-md-12">
-      <form [formGroup]="formGroup" class="form" (ngSubmit)="submit()">
-        <mat-form-field appearance="standard" floatLabel="always">
-          <mat-label translate="contact.form.name"></mat-label>
-          <input matInput name="Name" formControlName="name"
-            placeholder="{{ 'contact.form.name.placeholder' | translate }}">
-          <mat-error *ngIf="hasRequiredError('name')" translate="contact.form.required"></mat-error>
-        </mat-form-field>
-        <mat-form-field appearance="standard" floatLabel="always">
-          <mat-label translate="contact.form.email"></mat-label>
-          <input matInput name="Email" formControlName="email"
-            placeholder="{{ 'contact.form.email.placeholder' | translate }}"
-            pattern="[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}">
-          <mat-error *ngIf="hasRequiredError('email')" translate="contact.form.required"></mat-error>
-        </mat-form-field>
-        <mat-form-field appearance="standard" floatLabel="always">
-          <mat-label translate="contact.form.message"></mat-label>
-          <textarea matInput name="Message" rows="1" formControlName="message"
-            placeholder="{{ 'contact.form.message.placeholder' | translate }}"></textarea>
-          <mat-error *ngIf="hasRequiredError('message')" translate="contact.form.required"></mat-error>
-        </mat-form-field>
-        <div class="submit-btn mt-4">
-          <button mat-raised-button type="submit">
-            <span translate="contact.form.submitBtn"></span>
-          </button>
-        </div>
-      </form>
-    </div>
-  </div>
+  <h2 translate="contact.title"></h2>
+  <app-map></app-map>
 </app-section>

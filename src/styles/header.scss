@@ -6,10 +6,12 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    background: var(--background-primary);
+    background: url("/assets/images/header.jpg") no-repeat center center;
+    background-size: cover;
     max-width: unset;
-    padding-top: 0px;
+    padding: 0px;
     text-align: left;
+    min-height: 70vh;
 }
 
 .logo.mat-icon {
@@ -19,10 +21,7 @@
 }
 
 .header-title {
-    display: flex;
-    flex-direction: column;
-    align-items: baseline;
-    padding-top: 5%;
+    text-align: center;
 }
 
 .header-img {
