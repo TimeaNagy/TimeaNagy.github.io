@@ -8,4 +8,12 @@ import { AnimationComponent } from 'src/app/animation.component';
 export class ServiceComponent extends AnimationComponent {
   @Input() service = '';
   @Input() icon = '';
+  @Input() ref = '';
+
+  scroll() {
+    const el = document.getElementById(this.ref);
+    if (el) {
+        el.scrollIntoView({behavior: 'smooth'});
+    }
+}
 }

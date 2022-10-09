@@ -84,3 +84,13 @@
         animation-delay: 0.2s;
     }
 }
+
+h3 {
+  font-size: 40px !important;
+}
+
+.ref {
+  text-decoration: underline !important;
+  cursor: pointer;
+  color: var(--background-primary-2) !important;
+}

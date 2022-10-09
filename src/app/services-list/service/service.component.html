@@ -4,5 +4,7 @@
         <mat-icon>{{icon}}</mat-icon>
     </div>
     <h3 class="mb-2">{{ 'productservices.' + service + '.title' | translate }}</h3>
-    <span>{{ 'productservices.' + service + '.text' | translate }}</span>
+    <span>{{ 'productservices.' + service + '.text' | translate }}
+      <a *ngIf="ref.length" (click)="scroll()" class="ref"> {{ 'productservices.' + service + '.ref' | translate }}.</a>
+    </span>
 </div>
