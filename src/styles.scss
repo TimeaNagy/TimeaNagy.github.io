@@ -3,15 +3,12 @@
 @include mat.core();
 
 @import 'variables';
-@import 'styles/about-us.scss';
-@import 'styles/build-your-web.scss';
 @import 'styles/contact.scss';
 @import 'styles/footer.scss';
 @import 'styles/header.scss';
-@import 'styles/how-it-works.scss';
+@import 'styles/gallery.scss';
 @import 'styles/navigation.scss';
-@import 'styles/portfolio.scss';
-@import 'styles/product-features.scss';
+@import 'styles/services.scss';
 
 body {
     background-color: var(--background-default);
@@ -29,23 +26,23 @@ body {
 }
 
 h1 {
-    font-size: 50px;
-    color: var(--primary);
-    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 60px;
+    color: var(--secondary);
+    font-family: 'Parisienne', cursive;
     font-weight: bold;
 }
 
 h2 {
-    text-transform: uppercase;
-    font-size: 23px;
+    font-size: 32px;
     color: var(--secondary);
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Merriweather', serif;
+    letter-spacing: 2px;
 }
 
 h3 {
-    font-size: 16px;
+    font-size: 18px;
     color: var(--text);
-    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Parisienne', cursive;
     margin-bottom: 20px;
     font-weight: bold;
 }
@@ -55,9 +52,9 @@ h3 {
 }
 
 p, span {
-    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Merriweather', serif;
     color: var(--text);
-    font-size: 16px;
+    font-size: 18px;
 }
 
 p {

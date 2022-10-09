@@ -1,9 +1,9 @@
 .navbar {
     padding: 1% 0;
-    background: var(--background-primary);
-    color: var(--primary);
+    color: var(--text);
     font-family: 'Raleway', sans-serif;
     z-index: 2;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 .navbar-brand {
@@ -17,7 +17,7 @@
 }
 
 .lang-dropdown {
-  color: var(--primary) !important;
+  color: var(--secondary) !important;
   background-color: transparent !important;
   border-color: transparent !important;
   padding: 8px;
@@ -148,7 +148,7 @@
 
 
 .nav-text-color {
-  color: var(--primary);
+  color: var(--secondary);
 }
 
 .nav-item-border {
