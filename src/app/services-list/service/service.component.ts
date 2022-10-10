@@ -7,7 +7,7 @@ import { AnimationComponent } from 'src/app/animation.component';
 })
 export class ServiceComponent extends AnimationComponent {
   @Input() service = '';
-  @Input() icon = '';
+  @Input() picture = '';
   @Input() ref = '';
 
   scroll() {
