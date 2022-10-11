@@ -1,70 +1,11 @@
 #contact .section {
-    background-color: var(--background);
+    background-color: var(--background-primary);
 }
 
-.form {
-    flex-direction: column;
-    display: flex;
-}
-
-.contact-img {
-    max-width: 65%;
-}
-
-.contact-row {
-    align-items: center;
-}
-
-.mat-form-field-label-wrapper {
-    text-align: left;
-}
-
-.success-dialog {
-    mat-dialog-container {
-        width: 35% !important;
-        height: 350px !important;
-        min-width: 350px !important;
-        top: 20% !important;
-        left: 32.5% !important;
-        position: absolute !important;
-        border-radius: 25px !important;
-    }
-
-    .mat-dialog-actions {
-        min-height: unset;
-    }
-}
-
-.success-dialog-content {
-    padding: 3%;
-    flex-direction: column;
-    display: flex;
-    align-items: center;
-    height: 100%;
-    place-content: center space-evenly;
-
-    .mat-icon {
-        width: 100px;
-        height: 100px;
-        fill: var(--background-primary-1);
-    }
+p {
+  text-align: center !important;
 }
 
 @media only screen and (max-width: $mobile-resolution) {
-    .submit-btn {
-        padding-bottom: 7%;
-    }
 
-    .success-dialog {
-        mat-dialog-container {
-            width: calc(100% - 20px) !important;
-            left: 0% !important;
-            margin: 10px;
-        }
-    }
-
-    .contact-img {
-        margin-bottom: 20px;
-        max-width: 70%;
-    }
 }

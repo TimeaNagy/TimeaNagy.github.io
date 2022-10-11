@@ -8,6 +8,14 @@ navigation.services;Služby;Services;Szolgáltatások
 navigation.gallery;Galéria;Gallery;Galéria
 header.title;Kvetinárstvo Eva;Florist Eva;Virágüzlet Eva
 contact.title;Kontakt;Contact;Kontakt
+contact.openingHours;Otváracie hodiny;
+contact.monFri;Pon-Pi: 9:00 - 17:30;
+contact.sat;Sobota: 7:30 - 13:00;
+contact.sun;Nedeľa: Zatvorené;
+contact.address;Adresa: Obchodná 30, Veľký Biel 900 24;
+contact.email;E-mail: ewka31@azet.sk;
+contact.phone;Telefón: 0915 305 536;
+contact.ico;IČO: 46434241
 services.title;Moja ponuka;My Services;Szolgáltatásaim
 gallery.title;Galéria;Gallery;Galéria
 footer.text1; © Kvetinárstvo Eva - Dizajn zo; © Florist Eva - Design with; © Virágüzlet - A dizajnt
@@ -17,22 +25,16 @@ cookieMessage;Táto stránka používa súbory cookie. Kliknutím na tlačidlo "
 cookieAllow;Povoliť;Allow;Engedélyezem
 cookieDeny;Odmietnuť;Decline;Megtiltom
 cookiePolicy;Zásady používania súborov cookie;Cookie policy;Cookie szabályzat
-
 productservices.flowers.title;Kvety
 productservices.flowers.text;Nájdete u mňa kvalitne vypestované interiérové a exteriérové rastliny, ktoré sú sezonálne naskladnené podľa ročných období. Samozrejme neoddeliteľnou súčasťou pestovania rastlín je aj rašelina a substrát.;
-
 productservices.bouquet.title;Kytice, Vence, Kvetinové boxy
 productservices.bouquet.text;Široký výber vlastnoručne vyrobených hotových kytíc alebo kytíc na mieru, ktoré sú zviazané a prispôsobené buď hneď na mieste alebo na objednávku. Vence, ikebany a dizajnové kvetinové boxy alebo košiký zo živých aj z umelých kvetov alebo zo sladkostí či žrebov s personalizovaným odkazom.;
-
 productservices.decorations.title;Výzdoba
 productservices.decorations.text;Plánujete svadbu alebo oslavu? Blížia sa narodeniny, prvé sväté príjmanie či dôležité výročie? Výzdobu miestnosti nechajte na nás, nezáleží na tom či oslavujete v reštaurácií, vo svadobnej sále alebo v kostole!
-
 productservices.items.title;Dekorácie
 productservices.items.text;Pestrá ponuka rôznych doplnkov a dekorácií na zútulnenie Vaších domovov v rôznych tematikách od Veľkej noci až po Vianoce. Počas celého roka si uctievame spomienku našich zosnulých, čo môžeme vyjadriť zapálením sviečky v ozdobnom kanahci, poďte si ku mne vybrať.
-
 productservices.hygene.title;Drogéria
 productservices.hygene.text;V našom netradičnom kvetinárstve okrem kvetov a dekorácií nájdete okrem iných aj kozmetické produkty na starostlivosť o pleť, vonné oleje alebo šampóny na vlasy.
-
 productservices.orders.title;Objednávky
 productservices.orders.text;Nie je čas sa zastaviť v kvetinárstve počas rušných dní cez týzdeň? Žiadny problém, vykonajte Vašu objednávku telefonicky alebo prídite cez víkend v sobotu, keď sme pre Vás k dispozícií. Kontatkné údaje a otváraciu dobu nájdete;
 productservices.orders.ref;tu;
