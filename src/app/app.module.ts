@@ -28,6 +28,9 @@ import { ScrollToTopComponent } from './scroll-to-top/scroll-to-top.component';
 import { ServicesListComponent } from './services-list/services-list.component';
 import { ServiceComponent } from './services-list/service/service.component';
 import { GalleryComponent } from './gallery/gallery.component';
+import { MatTabsModule } from '@angular/material/tabs';
+import { MatGridListModule } from '@angular/material/grid-list';
+
 
 @NgModule({
   declarations: [
@@ -56,6 +59,8 @@ import { GalleryComponent } from './gallery/gallery.component';
     FormsModule,
     ReactiveFormsModule,
     MatDialogModule,
+    MatTabsModule,
+    MatGridListModule,
     GoogleTagManagerModule.forRoot({
       id: environment.gtmId,
     }),
