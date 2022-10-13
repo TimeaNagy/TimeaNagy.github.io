@@ -3,11 +3,7 @@
 #header .section {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     position: relative;
-    background: url("/assets/images/header.jpg") no-repeat center center;
-    background-size: cover;
     max-width: unset;
     padding: 0px;
     text-align: left;
@@ -22,6 +18,19 @@
 
 .header-title {
     text-align: center;
+    width: 50%;
+    margin-left: auto;
+    justify-content: center;
+    align-content: flex-start;
+    margin-top: 10%;
+}
+
+.header-subtitle {
+    text-align: justify !important;
+}
+
+.header-handwriting {
+    text-align: right !important;
 }
 
 .header-img {

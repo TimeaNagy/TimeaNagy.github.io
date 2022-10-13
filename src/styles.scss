@@ -25,6 +25,12 @@ body {
     text-align: center;
 }
 
+.background {
+    background: url(/assets/images/header.jpg) no-repeat center center;
+    background-size: cover;
+    background-position: 0 10%;
+}
+
 h1 {
     font-size: 60px;
     color: var(--secondary);
@@ -134,6 +140,10 @@ button:focus {
   .section {
       padding-right: 5%;
       padding-left: 5%;
+  }
+
+  .background {
+    background-size: contain;
   }
 
   .mobile-only {
