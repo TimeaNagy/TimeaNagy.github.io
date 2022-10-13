@@ -1,28 +1,34 @@
-import { Component } from '@angular/core';
+import { Component, ViewEncapsulation } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
-import { Observable, Observer } from 'rxjs';
+import { fromEvent, map, Observable, Observer, take } from 'rxjs';
+import { MatDialog } from '@angular/material/dialog';
+import SwiperCore, { Pagination, Navigation, Grid } from "swiper";
+import { GalleryDialogComponent } from './dialog/gallery-dialog/gallery-dialog.component';
+SwiperCore.use([Pagination, Navigation, Grid]);
 
 export interface GalleryTab {
-  label?: string;
-  tiles?: Tile[];
+  label: string;
 }
 
 export interface Tile {
   src: string;
-  cols: number;
-  rows: number;
+}
+
+interface ISize {
+  width: number; height: number;
 }
 
 @Component({
   selector: 'app-gallery',
-  templateUrl: './gallery.component.html'
+  templateUrl: './gallery.component.html',
+  encapsulation: ViewEncapsulation.None,
 })
 export class GalleryComponent {
-  asyncTabs: Observable<GalleryTab[]> | undefined;
+  asyncTabs: Observable<GalleryTab[]>;
   defaultTabIndex = 0;
   tiles: Tile[] = [];
 
-  constructor(private translate: TranslateService) {
+  constructor(private translate: TranslateService, public dialog: MatDialog) {
     this.asyncTabs = new Observable((observer: Observer<GalleryTab[]>) => {
       this.translate
         .get(['galleryBouquets', 'galleryWreaths', 'galleryIkebana', 'galleryDecorations', 'galleryBoxes'])
@@ -41,19 +47,23 @@ export class GalleryComponent {
   }
 
   selectedTabChanged(event: any) {
-    let names = ['bouquet', 'wreath', 'ikebana', 'decoration', 'box'];
+    this.tiles = [];
+    const folderInfo = [
+      { name: 'bouquet', pictureCount: 99 },
+      { name: 'wreath', pictureCount: 72 },
+      { name: 'ikebana', pictureCount: 22 },
+      { name: 'decoration', pictureCount: 46 },
+      { name: 'box', pictureCount: 58 }
+    ];
 
-    this.tiles = [
-      { cols: 1, rows: 1, src: `../../assets/images/${names[event.index]}/${names[event.index]}1.jpg` },
-      { cols: 1, rows: 1, src: `../../assets/images/${names[event.index]}/${names[event.index]}2.jpg` },
-      { cols: 2, rows: 2, src: `../../assets/images/${names[event.index]}/${names[event.index]}3.jpg` },
-      { cols: 1, rows: 1, src: `../../assets/images/${names[event.index]}/${names[event.index]}4.jpg` },
-      { cols: 1, rows: 1, src: `../../assets/images/${names[event.index]}/${names[event.index]}5.jpg` },
-      { cols: 2, rows: 2, src: `../../assets/images/${names[event.index]}/${names[event.index]}6.jpg` },
-      { cols: 1, rows: 1, src: `../../assets/images/${names[event.index]}/${names[event.index]}7.jpg` },
-      { cols: 1, rows: 1, src: `../../assets/images/${names[event.index]}/${names[event.index]}8.jpg` },
-      { cols: 1, rows: 1, src: `../../assets/images/${names[event.index]}/${names[event.index]}9.jpg` },
-      { cols: 1, rows: 1, src: `../../assets/images/${names[event.index]}/${names[event.index]}10.jpg` },
-    ]
+    for (var i = 1; i <= folderInfo[event.index].pictureCount; i++) {
+      this.tiles.push({ src: `../../assets/images/${folderInfo[event.index].name}/${folderInfo[event.index].name}${i}.jpg` })
+    }
+  }
+
+  openDialog({ src }: Tile): void {
+    this.dialog.open(GalleryDialogComponent, {
+      data: { src }
+    });
   }
 }

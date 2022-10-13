@@ -30,7 +30,8 @@ import { ServiceComponent } from './services-list/service/service.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatGridListModule } from '@angular/material/grid-list';
-
+import { SwiperModule } from 'swiper/angular';
+import { GalleryDialogComponent } from './gallery/dialog/gallery-dialog/gallery-dialog.component';
 
 @NgModule({
   declarations: [
@@ -45,7 +46,8 @@ import { MatGridListModule } from '@angular/material/grid-list';
     ServiceComponent,
     FooterComponent,
     ScrollToTopComponent,
-    GalleryComponent
+    GalleryComponent,
+    GalleryDialogComponent
   ],
   imports: [
     BrowserModule,
@@ -61,6 +63,7 @@ import { MatGridListModule } from '@angular/material/grid-list';
     MatDialogModule,
     MatTabsModule,
     MatGridListModule,
+    SwiperModule,
     GoogleTagManagerModule.forRoot({
       id: environment.gtmId,
     }),
