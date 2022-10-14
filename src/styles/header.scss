@@ -16,7 +16,7 @@
     height: 70px;
 }
 
-.header-title {
+.header-text {
     text-align: center;
     width: 50%;
     margin-left: auto;
@@ -67,10 +67,33 @@
     #header .section {
         padding-bottom: 5vh;
         padding-top: 70px;
+        background: url(/assets/images/header.jpg) no-repeat center center;
+        background-size: contain;
+        background-position: 0 60px; 
+    }
+
+    #header .container {
+        padding: 0;
     }
 
     .custom-shape-divider-bottom svg {
         height: 40px;
+    }
+
+    .header-text {
+        width: 100%;
+    }
+
+    .header-title {
+        width: 60%;
+        margin-left: auto;
+        overflow-wrap: anywhere;
+        padding: 0 15px;
+    }
+
+    .header-subtitles {
+        padding: 1rem 15px 0 15px;
+        background-color: var(--background-default);
     }
 
     .header-img {

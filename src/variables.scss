@@ -3,23 +3,19 @@ $background-secondary: #ffffff;
 $background-default: #ffffff;
 $primary: #f6b6cc;
 $secondary: #f3507b;
-$text: #595859;
-$background-primary-1: #437ffa;
-$background-primary-1-opacity: rgba(67, 127, 250, 0.2);
-$secondary-opacity: $background-primary-1-opacity;
-$background-primary-2: #bd3db9;
+$text: #252526;
 $mobile-resolution: 769px;
 $tablet-resolution: 992px;
+$font-family-title: 'Parisienne', cursive;
+$font-family-default: 'Merriweather', serif;
 
 :root {
     --background-primary: #{$background-primary};
-    --background-primary-1: #{$background-primary-1};
-    --background-primary-1-opacity: #{$background-primary-1-opacity};
-    --background-primary-2: #{$background-primary-2};
     --background-secondary: #{$background-secondary};
     --background-default: #{$background-default};
     --primary: #{$primary};
     --secondary: #{$secondary};
-    --secondary-opacity: #{$secondary-opacity};
     --text: #{$text};
+    --font-family-title: #{$font-family-title};
+    --font-family-default: #{$font-family-default};
 }

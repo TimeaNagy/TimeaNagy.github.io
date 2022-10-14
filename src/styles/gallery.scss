@@ -6,7 +6,6 @@
 .swiper {
   width: 100%;
   height: 850px;
-  background: var(--background-primary);
 }
 
 .swiper-slide {
@@ -19,8 +18,17 @@
   margin-top: 15px;
 }
 
+.mat-tab-label {
+  opacity: 1 !important;
+}
+
+.mat-tab-label span:hover {
+  color: var(--secondary);
+}
+
 .swiper-wrapper {
   height: 95%;
+  padding-left: 50px;
 }
 
 .swiper-slide img {
@@ -28,8 +36,6 @@
   width: 375px;
   height: 375px;
   object-fit: cover;
-  border: 3px solid white;
-  box-shadow: 0px 0px 8px rgba(0,0,0,.3);
 }
 
 .swiper-pagination-bullet-active {

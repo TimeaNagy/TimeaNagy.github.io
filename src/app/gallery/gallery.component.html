@@ -1,13 +1,12 @@
 <app-section id="gallery">
-  <h2 translate="gallery.title" class="mb-4"></h2>
-
+  <img src="assets/images/divider.png" class="divider">
   <ng-container *ngIf="(asyncTabs | async) === null">
     Loading tabs...
   </ng-container>
 
   <mat-tab-group mat-align-tabs="center" animationDuration="0ms" (selectedTabChange)="selectedTabChanged($event)">
     <mat-tab *ngFor="let tab of asyncTabs | async">
-      <ng-template mat-tab-label>{{tab.label}}</ng-template>
+      <ng-template mat-tab-label><span>{{tab.label}}</span></ng-template>
       <swiper [slidesPerView]="3" [grid]="{ rows: 2, fill: 'row' }" [spaceBetween]="15" [grabCursor]="true"
         [pagination]="{ clickable: true, dynamicBullets: true }" [navigation]="true" class="mySwiper">
         <ng-template *ngFor="let tile of tiles" swiperSlide>

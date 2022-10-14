@@ -61,12 +61,12 @@ export class AppComponent implements OnInit {
   }
 
   addMetaTags(): void {
-    this.titleService.setTitle('Tvorba webových stránok na mieru - FancyWeb');
+    this.titleService.setTitle('Kvetinárstvo Eva');
     this.metaTagService.addTags([
-      {name: 'description', content: 'Tvorba webových stránok na mieru s responzívnym dizajnom.'},
-      {name: 'keywords', content: 'website design, web development, web na mieru, tvorba web stránok, tvorba web, web stránky, tvorba web stranok'},
+      {name: 'description', content: 'Z nášho širokého výberu kvetov Vám vykúzlime nádherné kytice pre každú príležitosť'},
+      {name: 'keywords', content: 'kvetinárstvo, kvetinárstvo Eva, kvetinárstvo Veľký Biel, kvety, vence, Veľký Biel, kytice'},
       {name: 'robots', content: 'index, follow'},
-      {name: 'author', content: 'Krisztian Tóth, Tímea Nagy'},
+      {name: 'author', content: 'Eva Mészárosová'},
       {charset: 'UTF-8'},
     ])
   }

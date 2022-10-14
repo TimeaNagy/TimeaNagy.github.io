@@ -1,14 +1,27 @@
 .navbar {
     padding: 1% 0;
     color: var(--text);
-    font-family: 'Raleway', sans-serif;
+    font-family: var(--font-family-default);
     z-index: 2;
 }
 
 .navbar-brand {
     display: flex;
     align-items: center;
-    font-family: 'Merriweather Sans', sans-serif;
+    font-family: var(--font-family-default);;
+}
+
+.navbar-brand-img{
+    height: 35px;
+    padding-right: 15px;
+}
+
+.navbar-brand-name {
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid var(--text);
+  padding: 0 15px;
+  line-height: 18px;
 }
 
 .nav-item {
@@ -33,7 +46,7 @@
 .dropdown-menu:before {
   content: "";
     display: block;
-    font-size: 1px;
+    font-size: 0px;
     position: absolute;
     right: calc(50% - 25px);
     top: -10px;
@@ -45,6 +58,16 @@
     background-color: var(--background-secondary);
     border-top-right-radius: 1px;
     box-shadow: 0.75em -0.75em rgb(0, 0, 0, 0.25);
+}
+
+.dropdown-item {
+  cursor: pointer;
+}
+
+.dropdown-item:hover {
+  span {
+    color: var(--secondary);
+  }
 }
 
 .margin-left-10 {
@@ -150,6 +173,16 @@
   color: var(--text);
 }
 
+.nav-item:hover, .lang-dropdown:hover {
+  span {
+    color: var(--secondary) !important;
+  }
+}
+
+.dropdown-menu {
+  border: none;
+}
+
 .nav-item-border {
   border-bottom: none;
 }
@@ -170,11 +203,9 @@
   .navbar {
     padding: 1% 0;
     background: var(--background-secondary);
-    font-family: 'Raleway', sans-serif;
     position: fixed;
     z-index: 2;
     width: 100%;
-    box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
   }
 
   .nav-text-color {

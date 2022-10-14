@@ -1,11 +1,11 @@
-<mat-card class="card-background">
-  <mat-card-header>
-    <mat-card-title>{{ 'productservices.' + service + '.title' | translate }}</mat-card-title>
-  </mat-card-header>
-  <img mat-card-image [src]="'assets/images/' + picture + '.jpg'">
-  <mat-card-content>
-    <span>{{ 'productservices.' + service + '.text' | translate }}
+<div class="row service-row">
+  <div class="col-lg-6 col-md-12 service-img">
+    <img [src]="'assets/images/' + picture + '.jpg'">
+  </div>
+  <div class="col-lg-6 col-md-12">
+    <h3>{{ 'productservices.' + service + '.title' | translate }}</h3>
+    <p>{{ 'productservices.' + service + '.text' | translate }}
       <a *ngIf="ref.length" (click)="scroll()" class="ref"> {{ 'productservices.' + service + '.ref' | translate }}.</a>
-    </span>
-  </mat-card-content>
-</mat-card>
+    </p>
+  </div>
+</div>

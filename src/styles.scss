@@ -20,9 +20,13 @@ body {
 
 .section {
     min-height: 50vh;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-top: 7%;
     text-align: center;
+}
+
+.divider {
+    height: 50px;
+    margin-bottom: 7%;
 }
 
 .background {
@@ -34,21 +38,22 @@ body {
 h1 {
     font-size: 60px;
     color: var(--secondary);
-    font-family: 'Parisienne', cursive;
+    font-family: var(--font-family-title);
     font-weight: bold;
 }
 
 h2 {
     font-size: 32px;
     color: var(--secondary);
-    font-family: 'Merriweather', serif;
+    font-family: var(--font-family-default);
     letter-spacing: 2px;
+    font-weight: bold;
 }
 
 h3 {
     font-size: 18px;
     color: var(--text);
-    font-family: 'Parisienne', cursive;
+    font-family: var(--font-family-title);
     margin-bottom: 20px;
     font-weight: bold;
 }
@@ -58,17 +63,10 @@ h3 {
 }
 
 p, span {
-    font-family: 'Merriweather', serif;
+    font-family: var(--font-family-default);
     color: var(--text);
     font-size: 18px;
-}
-
-p {
-    text-align: left;
-}
-
-span {
-    text-align: center;
+    text-align: justify;
 }
 
 .mt {
@@ -99,7 +97,7 @@ span {
 .cookie-button-allow {
   line-height: 1.5 !important;
   padding: 10px 30px !important;
-  color: var(--background-primary-2);
+  color: var(--secondary);
   border-radius: 35px !important;
   margin: 5px !important;
 }
@@ -120,15 +118,20 @@ button:focus {
 
 .scrollToTop.mat-mini-fab{
     position: fixed;
-    background-color: #f9e84a;
+    background-color: var(--secondary);
     top: auto;
     left: auto;
     right: 30px;
     bottom: 30px;
+    box-shadow: none;
 
     .mat-icon {
         transform: rotate(90deg);
         margin-bottom: -7px;
+    }
+
+    .mat-button-wrapper {
+        color: var(--background-default);
     }
 }
 
@@ -143,7 +146,7 @@ button:focus {
   }
 
   .background {
-    background-size: contain;
+    background: none;
   }
 
   .mobile-only {

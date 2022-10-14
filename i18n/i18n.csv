@@ -6,6 +6,8 @@ navigation.aboutUs;O nás;About us;Rólunk
 navigation.contact;Kontakt;Contact;Kontakt
 navigation.services;Služby;Services;Szolgáltatások
 navigation.gallery;Galéria;Gallery;Galéria
+navigation.brand.florist;Kvetinárstvo;Florist;Virágüzlet
+navigation.brand.name;Eva;Eva;Eva
 header.title;Urobte svoj deň výnimočným!;Florist Eva;Virágüzlet Eva
 header.subtitle1;Vykúzlime pre Vás nádherné kytice pre každú príležitosť, či už chcete niekomu zablahoželať k sviatku alebo len potešiť.;text;text
 header.subtitle2;Pre Váš najkrajší deň v živote pripravíme Vašu vysnívanú svadobnú kyticu, Vašej fantázii sa medze nekladú.;text;text
@@ -30,14 +32,14 @@ galleryBoxes;Kvetinové boxy;
 footer.text1; © Kvetinárstvo Eva - Dizajn zo; © Florist Eva - Design with; © Virágüzlet - A dizajnt
 footer.text2;vytvoril ; made by ; -ből készítettes
 footer.text3;Obrázky navrhol coolvector / Freepik;Images designed by coolvector / Freepik;A képeket tervezte coolvector / Freepik
-cookieMessage;Táto stránka používa súbory cookie. Kliknutím na tlačidlo "Povoliť" súhlasíte s ich používaním na uloženie zvoleného jazyka a na anaýzu návštevnosti stránky.;This website uses cookies. By clicking the "Allow" button, you agree to their use to save the selected language and to analyze site traffic.;Ez az oldal sütiket használ. Az "Engedélyezem" gombra kattintva elfogadja, hogy ezeket a kiválasztott nyelv mentésére és a weboldal forgalmának elemzésére használjuk.
+cookieMessage;Táto stránka používa súbory cookie. Kliknutím na tlačidlo "Povoliť" súhlasíte s ich používaním na uloženie zvoleného jazyka a na analýzu návštevnosti stránky.;This website uses cookies. By clicking the "Allow" button, you agree to their use to save the selected language and to analyze site traffic.;Ez az oldal sütiket használ. Az "Engedélyezem" gombra kattintva elfogadja, hogy ezeket a kiválasztott nyelv mentésére és a weboldal forgalmának elemzésére használjuk.
 cookieAllow;Povoliť;Allow;Engedélyezem
 cookieDeny;Odmietnuť;Decline;Megtiltom
 cookiePolicy;Zásady používania súborov cookie;Cookie policy;Cookie szabályzat
 productservices.flowers.title;Kvety
 productservices.flowers.text;Nájdete u mňa kvalitne vypestované interiérové a exteriérové rastliny, ktoré sú sezonálne naskladnené podľa ročných období. Samozrejme neoddeliteľnou súčasťou pestovania rastlín je aj rašelina a substrát.;
 productservices.bouquet.title;Kytice, Vence, Kvetinové boxy
-productservices.bouquet.text;Široký výber vlastnoručne vyrobených hotových kytíc alebo kytíc na mieru, ktoré sú zviazané a prispôsobené buď hneď na mieste alebo na objednávku. Vence, ikebany a dizajnové kvetinové boxy alebo košiký zo živých aj z umelých kvetov alebo zo sladkostí či žrebov s personalizovaným odkazom.;
+productservices.bouquet.text;Široký výber vlastnoručne vyrobených hotových kytíc alebo kytíc na mieru, ktoré sú zviazané a prispôsobené buď hneď na mieste alebo na objednávku. Vence, ikebany a dizajnové kvetinové boxy alebo košíky zo živých aj z umelých kvetov alebo zo sladkostí či žrebov s personalizovaným odkazom.;
 productservices.decorations.title;Výzdoba
 productservices.decorations.text;Plánujete svadbu alebo oslavu? Blížia sa narodeniny, prvé sväté príjmanie či dôležité výročie? Výzdobu miestnosti nechajte na nás, nezáleží na tom či oslavujete v reštaurácií, vo svadobnej sále alebo v kostole!
 productservices.items.title;Dekorácie
