@@ -1,9 +1,10 @@
-import { Component, ViewEncapsulation } from '@angular/core';
+import { Component, ViewChild, ViewEncapsulation } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { fromEvent, map, Observable, Observer, take } from 'rxjs';
 import { MatDialog } from '@angular/material/dialog';
-import SwiperCore, { Pagination, Navigation, Grid } from "swiper";
+import SwiperCore, { Pagination, Navigation, Grid, SwiperOptions, Swiper } from "swiper";
 import { GalleryDialogComponent } from './dialog/gallery-dialog/gallery-dialog.component';
+import { SwiperComponent } from 'swiper/angular';
 SwiperCore.use([Pagination, Navigation, Grid]);
 
 export interface GalleryTab {
@@ -27,6 +28,15 @@ export class GalleryComponent {
   asyncTabs: Observable<GalleryTab[]>;
   defaultTabIndex = 0;
   tiles: Tile[] = [];
+  @ViewChild(SwiperComponent) swiper: SwiperComponent | undefined;
+  config: SwiperOptions = {
+    slidesPerView: 3,
+    slidesPerGroup: 3,
+    grid: { rows: 2, fill: 'row' },
+    spaceBetween: 15,
+    grabCursor: true,
+    pagination: { clickable: true, dynamicBullets: true }
+  };
 
   constructor(private translate: TranslateService, public dialog: MatDialog) {
     this.asyncTabs = new Observable((observer: Observer<GalleryTab[]>) => {
@@ -65,5 +75,12 @@ export class GalleryComponent {
     this.dialog.open(GalleryDialogComponent, {
       data: { src }
     });
+  }
+
+  swipePrev() {
+    this.swiper?.swiperRef.slidePrev();
+  }
+  swipeNext() {
+    this.swiper?.swiperRef.slideNext();
   }
 }

@@ -4,7 +4,7 @@
 @import "~swiper/css/grid";
 
 .swiper {
-  width: 100%;
+  width: 95%;
   height: 850px;
 }
 
@@ -28,7 +28,6 @@
 
 .swiper-wrapper {
   height: 95%;
-  padding-left: 50px;
 }
 
 .swiper-slide img {
@@ -49,6 +48,14 @@
 .swiper-button-next, .swiper-button-prev {
   color: var(--secondary);
   top: 48.5%
+}
+
+.swiper-button-next {
+  right: 0 !important;
+}
+
+.swiper-button-prev {
+  left: 0 !important;
 }
 
 .mat-tab-label {
