@@ -22,6 +22,9 @@
   border-left: 1px solid var(--text);
   padding: 0 15px;
   line-height: 18px;
+  span {
+    color: var(--text) !important;
+  }
 }
 
 .nav-item {

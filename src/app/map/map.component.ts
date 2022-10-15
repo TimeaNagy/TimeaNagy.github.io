@@ -13,8 +13,7 @@ import { Point } from 'ol/geom';
 
 @Component({
   selector: 'app-map',
-  templateUrl: './map.component.html',
-  styleUrls: ['./map.component.scss']
+  templateUrl: './map.component.html'
 })
 export class MapComponent implements OnInit {
   public map!: Map

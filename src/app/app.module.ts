@@ -32,6 +32,7 @@ import { MatTabsModule } from '@angular/material/tabs';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { SwiperModule } from 'swiper/angular';
 import { GalleryDialogComponent } from './gallery/dialog/gallery-dialog/gallery-dialog.component';
+import { InfoComponent } from './info/info.component';
 
 @NgModule({
   declarations: [
@@ -47,7 +48,8 @@ import { GalleryDialogComponent } from './gallery/dialog/gallery-dialog/gallery-
     FooterComponent,
     ScrollToTopComponent,
     GalleryComponent,
-    GalleryDialogComponent
+    GalleryDialogComponent,
+    InfoComponent
   ],
   imports: [
     BrowserModule,

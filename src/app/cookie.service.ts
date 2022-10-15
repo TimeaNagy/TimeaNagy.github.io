@@ -77,14 +77,14 @@ export class CookieService implements OnDestroy {
 
 export const cookieConfig: NgcCookieConsentConfig = {
   cookie: {
-    domain: 'fancywebsite.github.io'
+    domain: 'kvetinarstvo-eva.sk'
   },
   palette: {
     popup: {
-      background: 'var(background-primary)'
+      background: '#f6b6cc'
     },
     button: {
-      background: 'var(background-secondary)'
+      background: '#f3507b'
     }
   },
   theme: 'edgeless',

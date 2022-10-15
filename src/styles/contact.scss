@@ -1,7 +1,63 @@
-#contact .section {
+.contact-box {
+    display: flex;
     background-color: var(--background-primary);
+    text-align: left;
+    border-radius: 50px;
+}
+
+.map {
+    height: 100%;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    overflow: hidden;
+}
+
+.button {
+    border: 1px solid var(--secondary);
+    border-radius: 50px;
+    padding: 12px 20px;
+    margin-top: 1rem;
+    display: inline-block;
+    span {
+        color: var(--secondary);
+    }
+}
+
+.button:hover {
+    background-color: var(--secondary);
+    span {
+        color: var(--background-default);
+    }
+}
+
+a.button:hover {
+    text-decoration: none;
+}
+
+hr {
+    padding-bottom: 1rem;
+}
+
+.contact-info {
+    padding: 7%;
+}
+
+.contact-row {
+    display: flex;
+
+    .material-symbols-outlined {
+        padding-right: 8px;
+    }
 }
 
 @media only screen and (max-width: $mobile-resolution) {
+    .map {
+        height: 300px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 50px;
+    }
 
+    .button {
+        margin-bottom: 1rem;
+    }
 }

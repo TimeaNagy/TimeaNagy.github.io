@@ -1,20 +1,38 @@
 <app-section id="contact">
-  <div class="row mb-4">
-    <div class="col-lg-4 col-md-6">
+  <img src="assets/images/divider.png" class="divider">
+  <div class="contact-box row">
+    <div class="col-lg-6 col-md-12 contact-info">
       <h3 translate="contact.title"></h3>
-      <p translate="contact.address"></p>
-      <p translate="contact.email"></p>
-      <p translate="contact.phone"></p>
-      <p translate="contact.ico"></p>
+      <div class="contact-row">
+        <span class="material-symbols-outlined">location_on</span>
+        <p translate="contact.address"></p>
+      </div>
+      <div class="contact-row">
+        <span class="material-symbols-outlined">call</span>
+        <p translate="contact.phone"></p>
+      </div>
+      <div class="contact-row">
+        <span class="material-symbols-outlined">mail</span>
+        <p translate="contact.email"></p>
+      </div>
+      <hr>
+      <div class="contact-row">
+        <span class="material-symbols-outlined">schedule</span>
+        <div>
+          <p translate="contact.monFri"></p>
+          <p translate="contact.sat"></p>
+          <p translate="contact.sun"></p>
+        </div>
+      </div>
+      <a target="_blank" [href]="url" class="button">
+        <span translate="contact.button"></span>
+      </a>
+      <hr class="mobile-only no-padding">
     </div>
-    <div class="col-lg-4 col-md-6">
-      <h3 translate="contact.openingHours"></h3>
-      <p translate="contact.monFri"></p>
-      <p translate="contact.sat"></p>
-      <p translate="contact.sun"></p>
-    </div>
-    <div class="col-lg-4 col-md-6">
-      <app-map></app-map>
+    <div class="col-lg-6 col-md-12 no-padding">
+      <a target="_blank" [href]="url">
+        <app-map></app-map>
+      </a>
     </div>
   </div>
 </app-section>

@@ -1,51 +1,55 @@
-id;sk;en;hu
-fancyweb;FancyWeb;FancyWeb;FancyWeb
-title;Kvetinárstvo Eva;Florist Eva;Virágüylet Eva
-navigation.header;Domov;Home;Főoldal
-navigation.aboutUs;O nás;About us;Rólunk
-navigation.contact;Kontakt;Contact;Kontakt
-navigation.services;Služby;Services;Szolgáltatások
-navigation.gallery;Galéria;Gallery;Galéria
-navigation.brand.florist;Kvetinárstvo;Florist;Virágüzlet
-navigation.brand.name;Eva;Eva;Eva
-header.title;Urobte svoj deň výnimočným!;Florist Eva;Virágüzlet Eva
-header.subtitle1;Vykúzlime pre Vás nádherné kytice pre každú príležitosť, či už chcete niekomu zablahoželať k sviatku alebo len potešiť.;text;text
-header.subtitle2;Pre Váš najkrajší deň v živote pripravíme Vašu vysnívanú svadobnú kyticu, Vašej fantázii sa medze nekladú.;text;text
-header.subtitle3;A s našimi smútočnými kyticami a vencami sa môžete aj dôstojne rozlúčiť so svojimi najbližšími.;text;text
-header.handwriting;Eva;Eva;Eva
-contact.title;Kontakt;Contact;Kontakt
-contact.openingHours;Otváracie hodiny;
-contact.monFri;Pon-Pi: 9:00 - 17:30;
-contact.sat;Sobota: 7:30 - 13:00;
-contact.sun;Nedeľa: Zatvorené;
-contact.address;Adresa: Obchodná 30, Veľký Biel 900 24;
-contact.email;E-mail: ewka31@azet.sk;
-contact.phone;Telefón: 0915 305 536;
-contact.ico;IČO: 46434241
-services.title;Moja ponuka;My Services;Szolgáltatásaim
-gallery.title;Galéria;Gallery;Galéria
-galleryBouquets;Kytice;
-galleryWreaths;Vence;
-galleryIkebana;Ikebany;
-galleryDecorations;Dekorácie;
-galleryBoxes;Kvetinové boxy;
-footer.text1; © Kvetinárstvo Eva - Dizajn zo; © Florist Eva - Design with; © Virágüzlet - A dizajnt
-footer.text2;vytvoril ; made by ; -ből készítettes
-footer.text3;Obrázky navrhol coolvector / Freepik;Images designed by coolvector / Freepik;A képeket tervezte coolvector / Freepik
-cookieMessage;Táto stránka používa súbory cookie. Kliknutím na tlačidlo "Povoliť" súhlasíte s ich používaním na uloženie zvoleného jazyka a na analýzu návštevnosti stránky.;This website uses cookies. By clicking the "Allow" button, you agree to their use to save the selected language and to analyze site traffic.;Ez az oldal sütiket használ. Az "Engedélyezem" gombra kattintva elfogadja, hogy ezeket a kiválasztott nyelv mentésére és a weboldal forgalmának elemzésére használjuk.
-cookieAllow;Povoliť;Allow;Engedélyezem
-cookieDeny;Odmietnuť;Decline;Megtiltom
-cookiePolicy;Zásady používania súborov cookie;Cookie policy;Cookie szabályzat
-productservices.flowers.title;Kvety
-productservices.flowers.text;Nájdete u mňa kvalitne vypestované interiérové a exteriérové rastliny, ktoré sú sezonálne naskladnené podľa ročných období. Samozrejme neoddeliteľnou súčasťou pestovania rastlín je aj rašelina a substrát.;
-productservices.bouquet.title;Kytice, Vence, Kvetinové boxy
-productservices.bouquet.text;Široký výber vlastnoručne vyrobených hotových kytíc alebo kytíc na mieru, ktoré sú zviazané a prispôsobené buď hneď na mieste alebo na objednávku. Vence, ikebany a dizajnové kvetinové boxy alebo košíky zo živých aj z umelých kvetov alebo zo sladkostí či žrebov s personalizovaným odkazom.;
-productservices.decorations.title;Výzdoba
-productservices.decorations.text;Plánujete svadbu alebo oslavu? Blížia sa narodeniny, prvé sväté príjmanie či dôležité výročie? Výzdobu miestnosti nechajte na nás, nezáleží na tom či oslavujete v reštaurácií, vo svadobnej sále alebo v kostole!
-productservices.items.title;Dekorácie
-productservices.items.text;Pestrá ponuka rôznych doplnkov a dekorácií na zútulnenie Vaších domovov v rôznych tematikách od Veľkej noci až po Vianoce. Počas celého roka si uctievame spomienku našich zosnulých, čo môžeme vyjadriť zapálením sviečky v ozdobnom kanahci, poďte si ku mne vybrať.
-productservices.hygene.title;Drogéria
-productservices.hygene.text;V našom netradičnom kvetinárstve okrem kvetov a dekorácií nájdete okrem iných aj kozmetické produkty na starostlivosť o pleť, vonné oleje alebo šampóny na vlasy.
-productservices.orders.title;Objednávky
-productservices.orders.text;Nie je čas sa zastaviť v kvetinárstve počas rušných dní cez týzdeň? Žiadny problém, vykonajte Vašu objednávku telefonicky alebo prídite cez víkend v sobotu, keď sme pre Vás k dispozícií. Kontatkné údaje a otváraciu dobu nájdete;
-productservices.orders.ref;tu;
+id;sk;hu
+fancyweb;FancyWeb;FancyWeb
+title;Kvetinárstvo Eva;Virágüzlet Eva
+navigation.header;Domov;Főoldal
+navigation.contact;Kontakt;Kontakt
+navigation.services;Naša ponuka;Ajánlatunk
+navigation.gallery;Naše fotky;Képeink
+navigation.brand.florist;Kvetinárstvo;Éva
+navigation.brand.name;Eva;Virágüzlete
+header.title;Urobte svoj deň výnimočným!;Tegye különlegessé a napját!
+header.subtitle1;Vykúzlime pre Vás nádherné kytice pre každú príležitosť, či už chcete niekomu zablahoželať k sviatku alebo len potešiť.;Gyönyörű csokrokat varázsolunk Önnek minden alkalomra, akár ünnephez szeretne gratulálni vagy csak örömöt okozni.
+header.subtitle2;Pre Váš najkrajší deň v živote pripravíme Vašu vysnívanú svadobnú kyticu, Vašej fantázii sa medze nekladú.;Élete legszebb napjára elkészítjük álmai esküvői csokrát, képzeletének nincs határa.
+header.subtitle3;A s našimi smútočnými kyticami a vencami sa môžete aj dôstojne rozlúčiť so svojimi najbližšími.;Gyászcsokrainkkal és koszorúinkkal pedig méltóan elbúcsúzhat szeretteitől.
+header.handwriting;Eva;Éva
+contact.title;Naše kvetinárstvo;Virágüzletünk
+contact.monFri;Pon-Pi: 9:00 - 17:30;H-P: 9:00 - 17:30
+contact.sat;Sobota: 7:30 - 13:00;Szombat: 7:30 - 13:00
+contact.sun;Nedeľa: zatvorené;Vasárnap: zárva
+contact.visit;Navštívte nás;Látogasson meg
+contact.call;Kontaktujte nás;Hívjon fel minket
+contact.write;Napíšte nám;Írjon nekünk
+contact.address;Obchodná 30, Veľký Biel 900 24;Obchodná 30, Veľký Biel 900 24
+contact.email;ewka31@azet.sk;ewka31@azet.sk
+contact.phone;0915 305 536;0915 305 536
+contact.button;Nájdite nás na mape;Keressen minket a térképen
+galleryBouquets;Kytice;Csokrok
+galleryWreaths;Vence;Koszorúk
+galleryIkebana;Ikebany;Ikebana
+galleryDecorations;Dekorácie;Dekorációk
+galleryBoxes;Kvetinové boxy;Virágládák
+footer.name;Obchodné meno: Eva Mészárosová;Obchodné meno: Eva Mészárosová
+footer.address;Miesto podnikania: 1. mája 256/10, Nová Dedinka 90029;Miesto podnikania: 1. mája 256/10, Nová Dedinka 90029
+footer.ico;IČO: 46434241;IČO: 46434241
+footer.office;Fyzická osoba zapísaná v Živnostenskom registri Okresného úradu Senec od 14. novembra 2011;Fyzická osoba zapísaná v Živnostenskom registri Okresného úradu Senec od 14. novembra 2011
+footer.number;Číslo živnostenského registra: 140-17200;Číslo živnostenského registra: 140-17200
+footer.text1; © Kvetinárstvo Eva - Dizajn zo; © Éva virágüzlete - A dizajnt
+footer.text2;vytvoril ;-ből készítettes 
+footer.text3;Ilustračné obrázky navrhol Freepik;Az illusztrációs képeket tervezte Freepik
+cookieMessage;Táto stránka používa súbory cookie. Kliknutím na tlačidlo "Povoliť" súhlasíte s ich používaním na uloženie zvoleného jazyka a na analýzu návštevnosti stránky.;Ez az oldal sütiket használ. Az "Engedélyezem" gombra kattintva elfogadja, hogy ezeket a kiválasztott nyelv mentésére és a weboldal forgalmának elemzésére használjuk.
+cookieAllow;Povoliť;Engedélyezem
+cookieDeny;Odmietnuť;Megtiltom
+cookiePolicy;Zásady používania súborov cookie;Cookie szabályzat
+productservices.flowers.title;Kvety;Virágok
+productservices.flowers.text;Nájdete u mňa kvalitne vypestované interiérové a exteriérové rastliny, ktoré sú sezonálne naskladnené podľa ročných období. Samozrejme neoddeliteľnou súčasťou pestovania rastlín je aj rašelina a substrát.;Minőségi beltéri és kültéri növényeket talál nálunk, amelyeket szezonálisan, az évszakoknak megfelelően rendelük meg. Természetesen a tőzeg és az aljzat is szerves része a növénytermesztésnek.
+productservices.bouquet.title;Kytice, Vence, Kvetinové boxy;Csokrok, Koszorúk, Virágládák
+productservices.bouquet.text;Široký výber vlastnoručne vyrobených hotových kytíc alebo kytíc na mieru, ktoré sú zviazané a prispôsobené buď hneď na mieste alebo na objednávku. Vence, ikebany a dizajnové kvetinové boxy alebo košíky zo živých aj z umelých kvetov alebo zo sladkostí či žrebov s personalizovaným odkazom.;Kézzel készített kész csokrok vagy testre szabott csokrok széles választéka, melyeket akár a helyszínen, akár rendelésre kötünk és személyre szabunk. Koszorúk, ikebana és dizájnos virágládák vagy kosarak élő- és művirágból vagy édességekből, sorsjegyből személyre szabott üzenettel.
+productservices.decorations.title;Výzdoba;Díszítés
+productservices.decorations.text;Plánujete svadbu alebo oslavu? Blížia sa narodeniny, prvé sväté príjmanie či dôležité výročie? Výzdobu miestnosti nechajte na nás, nezáleží na tom či oslavujete v reštaurácií, vo svadobnej sále alebo v kostole!;Esküvőt vagy bulit tervez? Születésnap, elsőáldozás vagy fontos évforduló közeleg? Bízza ránk a helység díszítését, lényegtelen, hogy étteremben, esküvői teremben vagy templomban ünnepel!
+productservices.items.title;Dekorácie;Dekoráció
+productservices.items.text;Pestrá ponuka rôznych doplnkov a dekorácií na zútulnenie Vaších domovov v rôznych tematikách od Veľkej noci až po Vianoce. Počas celého roka si uctievame spomienku našich zosnulých, čo môžeme vyjadriť zapálením sviečky v ozdobnom kanahci, príďte si k nám vybrať.;Különféle kiegészítők és dekorációk változatos kínálata, hogy otthona hangulatossá váljon különböző témákban húsvéttól karácsonyig. Egész évben tisztelegünk elhunytunk emléke előtt, melyet díszdobozban gyertyagyújtással is kifejezhetünk, jöjjön és válogasson nálunk.
+productservices.hygene.title;Drogéria;Drogéria
+productservices.hygene.text;V našom netradičnom kvetinárstve okrem kvetov a dekorácií nájdete okrem iných aj kozmetické produkty na starostlivosť o pleť, vonné oleje alebo šampóny na vlasy.;Nem hagyományos virágboltunkban a virágok és dekorációk mellett többek között bőrápoló kozmetikai termékeket, illatos olajokat vagy hajsamponokat is talál.
+productservices.orders.title;Objednávky;Megrendelések
+productservices.orders.text;Nie je čas sa zastaviť v kvetinárstve počas rušných dní cez týzdeň? Žiadny problém, vykonajte Vašu objednávku telefonicky alebo prídite cez víkend v sobotu, keď sme pre Vás k dispozícií. Kontaktné údaje a otváraciu dobu nájdete;Nincs ideje benézni a virágboltba a mozgalmas hétköznapokon? Semmi gond, rendelje meg telefonon, vagy jöjjön el szombaton, amikor készséggel állunk rendelkezésére. Megtekintheti az elérhetőségeket és a nyitvatartási időt
+productservices.orders.ref;tu.;itt.

@@ -1,9 +1,10 @@
 <div class="row service-row">
+  <h3 class="mobile-only">{{ 'productservices.' + service + '.title' | translate }}</h3>
   <div class="col-lg-6 col-md-12 service-img">
     <img [src]="'assets/images/' + picture + '.jpg'">
   </div>
-  <div class="col-lg-6 col-md-12">
-    <h3>{{ 'productservices.' + service + '.title' | translate }}</h3>
+  <div class="col-lg-6 col-md-12 service-text">
+    <h3 class="desktop-only">{{ 'productservices.' + service + '.title' | translate }}</h3>
     <p>{{ 'productservices.' + service + '.text' | translate }}
       <a *ngIf="ref.length" (click)="scroll()" class="ref"> {{ 'productservices.' + service + '.ref' | translate }}.</a>
     </p>

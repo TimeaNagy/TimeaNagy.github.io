@@ -16,7 +16,7 @@
     }
 
     .service-img {
-        padding-top: 30px 30px 0px 0px;
+        padding: 0px 30px 30px 0px;
         text-align: right;
         img {
             box-shadow: 30px 30px 0px 0px var(--background-primary);
@@ -40,75 +40,54 @@
     align-items: center;
 }
 
-.animate-service {
-    animation-duration: 0.75s;
-    animation-fill-mode: backwards;
-    visibility: visible;
-}
-
-.visibility {
-    visibility: hidden;
-}
-
-.animate-service.glow {
-    animation-name: animate-glow;
-    animation-timing-function: ease;
-}
-
-@keyframes animate-glow {
-    0% {
-        opacity: 0;
-        filter: brightness(3) saturate(3);
-        transform: scale(0.8, 0.8);
-    }
-
-    100% {
-        opacity: 1;
-        filter: brightness(1) saturate(1);
-        transform: scale(1, 1);
-    }
-}
-
-.delay-1 {
-    animation-delay: 0.2s;
-}
-
-.delay-2 {
-    animation-delay: 0.3s;
-}
-
-.delay-3 {
-    animation-delay: 0.4s;
-}
-
-.delay-4 {
-    animation-delay: 0.2s;
-}
-
-.delay-5 {
-    animation-delay: 0.3s;
-}
-
-.delay-6 {
-    animation-delay: 0.4s;
-}
 
 @media only screen and (max-width: $mobile-resolution) {
-    #services .row.mb-4 {
-        margin-bottom: 0px !important;
+    .service-row {
+        justify-content: center;
+    }
+
+    .service-img {
+        text-align: center;
+        padding: 15px 0px 0px 15px;
+        margin-bottom: 5%;
+        margin-top: 0;
+        img {
+            width: 90%;
+            box-shadow: -15px -15px 0px 0px var(--background-primary);
+        }
+    }
+
+    .service:nth-child(odd) {
+        .service-img {
+            padding: 0px 15px 15px 0px;
+
+            img {
+                box-shadow: 15px 15px 0px 0px var(--background-primary);
+            }
+        }
+    }
+
+    .service:last-child {
+        padding-bottom: 0;
+        
+        .service-img {
+            margin-top: 0;
+            margin-bottom: 5%;
+        }
     }
 
     .service {
+        display: flex;
         padding-bottom: 10%;
-    }
 
-    .delay-1, .delay-2, .delay-3, .delay-4, .delay-5, .delay-6 {
-        animation-delay: 0.2s;
-    }
-}
+        p {
+            margin-bottom: 0;
+        }
 
-h3 {
-  font-size: 40px !important;
+        .service-text {
+            padding: 0;
+        }
+    }
 }
 
 .ref {

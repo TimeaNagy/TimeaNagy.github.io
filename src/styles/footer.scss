@@ -1,8 +1,20 @@
 #footer .section {
-    background-color: var(--background);
+    background: url(/assets/images/header.jpg) no-repeat center center;
+    background-size: cover;
+    background-position: 0 7%;
     min-height: unset;
-    padding-top: 5vh;
-    padding-bottom: 5vh;
+    margin-top: 2%;
+    padding: 7%
+}
+
+.footer {
+    width: 60%;
+    margin-left: auto;
+
+    p {
+        text-align: center;
+        margin-bottom: 0;
+    }
 }
 
 .heart.mat-icon {

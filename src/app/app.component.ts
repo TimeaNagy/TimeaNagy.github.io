@@ -23,10 +23,7 @@ export class AppComponent implements OnInit {
     translate.setDefaultLang(this.currentLang);
     translate.currentLang = this.currentLang;
     // Icons initialization
-    this.addIconToRegistry('fancyweb_logo', 'assets/icons/logo.svg');
-    this.addIconToRegistry('success', 'assets/icons/success.svg');
     this.addIconToRegistry('sk_flag', 'assets/icons/sk.svg');
-    this.addIconToRegistry('en_flag', 'assets/icons/gb.svg');
     this.addIconToRegistry('hu_flag', 'assets/icons/hu.svg');
   }
 

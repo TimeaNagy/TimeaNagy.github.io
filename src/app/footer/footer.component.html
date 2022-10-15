@@ -1,16 +1,23 @@
 <app-section id="footer">
-    <div>
-        <span>{{getYear()}}</span>
-        <span translate="footer.text1"></span>
-        <mat-icon class="heart">favorite</mat-icon>
-        <span translate="footer.text2"></span>
-        <a href="www.fancywebsite.github.io" class="link">
-            <span translate="fancyweb"></span>
-        </a>
-    </div>
-    <div>
-        <a href="http://www.freepik.com" class="link">
-            <span translate="footer.text3"></span>
-        </a>
+    <div class="footer">
+        <p translate="footer.name"></p>
+        <p translate="footer.address"></p>
+        <p translate="footer.ico"></p>
+        <p translate="footer.office"></p>
+        <p translate="footer.number"></p>
+        <div class="mt">
+            <span>{{getYear()}}</span>
+            <span translate="footer.text1"></span>
+            <mat-icon class="heart">favorite</mat-icon>
+            <span translate="footer.text2"></span>
+            <a href="https://fancywebsite.github.io" class="link" target="_blank">
+                <span translate="fancyweb"></span>
+            </a>
+        </div>
+        <div>
+            <a href="http://www.freepik.com" class="link" target="_blank">
+                <span translate="footer.text3"></span>
+            </a>
+        </div>
     </div>
 </app-section>
