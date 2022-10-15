@@ -6,13 +6,14 @@
 
   <mat-tab-group mat-align-tabs="center" animationDuration="0ms" (selectedTabChange)="selectedTabChanged($event)">
     <mat-tab *ngFor="let tab of asyncTabs | async">
-      <ng-template mat-tab-label><span>{{tab.label}}</span></ng-template>
-      <swiper [slidesPerView]="3" [grid]="{ rows: 2, fill: 'row' }" [spaceBetween]="15" [grabCursor]="true"
-        [pagination]="{ clickable: true, dynamicBullets: true }" [navigation]="true" class="mySwiper">
+      <ng-template mat-tab-label>{{tab.label}}</ng-template>
+      <swiper [config]="config">
         <ng-template *ngFor="let tile of tiles" swiperSlide>
           <img [src]="tile.src" (click)="openDialog(tile)">
         </ng-template>
       </swiper>
+      <div class="swiper-button-next" (click)="swipeNext()"></div>
+      <div class="swiper-button-prev" (click)="swipePrev()"></div>
     </mat-tab>
   </mat-tab-group>
 </app-section>
