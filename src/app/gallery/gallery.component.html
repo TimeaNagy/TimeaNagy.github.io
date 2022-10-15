@@ -7,7 +7,7 @@
   <mat-tab-group mat-align-tabs="center" animationDuration="0ms" (selectedTabChange)="selectedTabChanged($event)">
     <mat-tab *ngFor="let tab of asyncTabs | async">
       <ng-template mat-tab-label>{{tab.label}}</ng-template>
-      <swiper [config]="config">
+      <swiper #swiper [config]="config" [virtual]="false">
         <ng-template *ngFor="let tile of tiles" swiperSlide>
           <img [src]="tile.src" (click)="openDialog(tile)">
         </ng-template>
