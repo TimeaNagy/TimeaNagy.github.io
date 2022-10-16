@@ -30,9 +30,9 @@ import { ServiceComponent } from './services-list/service/service.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatGridListModule } from '@angular/material/grid-list';
-import { SwiperModule } from 'swiper/angular';
 import { GalleryDialogComponent } from './gallery/dialog/gallery-dialog/gallery-dialog.component';
 import { InfoComponent } from './info/info.component';
+import { GridColsDirective } from './gallery/directives/grid-cols.directive';
 
 @NgModule({
   declarations: [
@@ -49,7 +49,8 @@ import { InfoComponent } from './info/info.component';
     ScrollToTopComponent,
     GalleryComponent,
     GalleryDialogComponent,
-    InfoComponent
+    InfoComponent,
+    GridColsDirective
   ],
   imports: [
     BrowserModule,
@@ -65,7 +66,6 @@ import { InfoComponent } from './info/info.component';
     MatDialogModule,
     MatTabsModule,
     MatGridListModule,
-    SwiperModule,
     GoogleTagManagerModule.forRoot({
       id: environment.gtmId,
     }),

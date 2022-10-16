@@ -1,19 +1,15 @@
 <app-section id="gallery">
   <img src="assets/images/divider.png" class="divider">
-  <ng-container *ngIf="(asyncTabs | async) === null">
-    Loading tabs...
-  </ng-container>
-
   <mat-tab-group mat-align-tabs="center" animationDuration="0ms" (selectedTabChange)="selectedTabChanged($event)">
-    <mat-tab *ngFor="let tab of asyncTabs | async">
-      <ng-template mat-tab-label>{{tab.label}}</ng-template>
-      <swiper #swiper [config]="config" [virtual]="false">
-        <ng-template *ngFor="let tile of tiles" swiperSlide>
-          <img [src]="tile.src" (click)="openDialog(tile)">
-        </ng-template>
-      </swiper>
-      <div class="swiper-button-next" (click)="swipeNext()"></div>
-      <div class="swiper-button-prev" (click)="swipePrev()"></div>
+    <mat-tab *ngFor="let tab of tabs">
+      <ng-template mat-tab-label>{{tab.label | translate}}</ng-template>
+      <div class="gallery-container">
+        <mat-grid-list [gridCols]="{xs: 1, sm: 2, md: 3, lg: 3, xl: 3}" rowHeight="395px">
+          <mat-grid-tile *ngFor="let tile of tiles">
+            <img class="tile-img" [src]="tile.src" (click)="openDialog(tile)">
+          </mat-grid-tile>
+        </mat-grid-list>
+      </div>
     </mat-tab>
   </mat-tab-group>
 </app-section>
