@@ -1,4 +1,4 @@
-import { Component, ViewChild, ViewEncapsulation } from '@angular/core';
+import { Component, ElementRef, ViewChild, ViewEncapsulation } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { Observable, Observer } from 'rxjs';
 import { MatDialog } from '@angular/material/dialog';
@@ -16,6 +16,7 @@ export interface Tile {
 export class GalleryComponent {
   tiles: Tile[] = [];
   defaultTabIndex = 0;
+  selectedTabIndex = 0;
 
   tabs = [
     { label: 'galleryBouquets' },
@@ -33,12 +34,15 @@ export class GalleryComponent {
     { name: 'box', pictureCount: 58 }
   ];
 
-  constructor(private translate: TranslateService, public dialog: MatDialog) {
+  constructor(public dialog: MatDialog, private elem: ElementRef) {
+    this.elem.nativeElement.style.setProperty('--picture-count', this.folderInfo[this.selectedTabIndex].pictureCount)
     this.selectedTabChanged({ index: this.defaultTabIndex });
   }
 
   selectedTabChanged(event: any) {
     this.tiles = [];
+    this.selectedTabIndex = event.index;
+
     for (let i = 1; i <= this.folderInfo[event.index].pictureCount; i++) {
       this.tiles = [...this.tiles, { src: `../../assets/images/${this.folderInfo[event.index].name}/${this.folderInfo[event.index].name}${i}.jpg` }]
     }
