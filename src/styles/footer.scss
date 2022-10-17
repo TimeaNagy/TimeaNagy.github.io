@@ -1,3 +1,5 @@
+@import '../variables.scss';
+
 #footer .section {
     background: url(/assets/images/header.jpg) no-repeat center center;
     background-size: cover;
@@ -27,5 +29,17 @@
     text-decoration: none;
     span {
         color: var(--secondary);
+    }
+}
+
+@media only screen and (max-width: $mobile-resolution) {
+    #footer .section {
+        background-position: top;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .footer {
+        width: 60%;
     }
 }

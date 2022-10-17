@@ -27,7 +27,7 @@ galleryBouquets;Kytice;Csokrok
 galleryWreaths;Vence;Koszorúk
 galleryIkebana;Ikebany;Ikebanák
 galleryDecorations;Dekorácie;Dekorációk
-galleryBoxes;Kvetinové boxy;Virágládák
+galleryBoxes;Boxy;Virágládák
 footer.name;Obchodné meno: Eva Mészárosová;Obchodné meno: Eva Mészárosová
 footer.address;Miesto podnikania: 1. mája 256/10, Nová Dedinka 90029;Miesto podnikania: 1. mája 256/10, Nová Dedinka 90029
 footer.ico;IČO: 46434241;IČO: 46434241
@@ -52,4 +52,4 @@ productservices.hygene.title;Drogéria;Drogéria
 productservices.hygene.text;V našom netradičnom kvetinárstve okrem kvetov a dekorácií nájdete okrem iných aj kozmetické produkty na starostlivosť o pleť, vonné oleje alebo šampóny na vlasy.;Nem hagyományos virágboltunkban a virágok és dekorációk mellett többek között bőrápoló kozmetikai termékeket, illatos olajokat vagy hajsamponokat is talál.
 productservices.orders.title;Objednávky;Megrendelések
 productservices.orders.text;Nie je čas sa zastaviť v kvetinárstve počas rušných dní cez týzdeň? Žiadny problém, vykonajte Vašu objednávku telefonicky alebo prídite cez víkend v sobotu, keď sme pre Vás k dispozícií. Kontaktné údaje a otváraciu dobu nájdete;Nincs ideje benézni a virágboltba a mozgalmas hétköznapokon? Semmi gond, rendelje meg telefonon, vagy jöjjön el szombaton, amikor készséggel állunk rendelkezésére. Megtekintheti az elérhetőségeket és a nyitvatartási időt
-productservices.orders.ref;tu.;itt.
+productservices.orders.ref;tu;itt

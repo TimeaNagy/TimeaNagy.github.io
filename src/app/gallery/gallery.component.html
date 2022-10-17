@@ -1,8 +1,10 @@
-<app-section id="gallery">
+<div class="divider-box">
   <img src="assets/images/divider.png" class="divider">
+</div>
+<app-section id="gallery">
   <mat-tab-group mat-align-tabs="center" animationDuration="0ms" (selectedTabChange)="selectedTabChanged($event)">
     <mat-tab *ngFor="let tab of tabs">
-      <ng-template mat-tab-label>{{tab.label | translate}}</ng-template>
+      <ng-template mat-tab-label><h3>{{tab.label | translate}}</h3></ng-template>
       <div class="gallery-container">
         <mat-grid-list [gridCols]="{xs: 1, sm: 2, md: 3, lg: 3, xl: 3}" rowHeight="395px">
           <mat-grid-tile *ngFor="let tile of tiles">

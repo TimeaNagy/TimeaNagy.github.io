@@ -21,12 +21,16 @@ body {
 
 .section {
     min-height: 50vh;
-    padding-top: 7%;
+    text-align: center;
+}
+
+.divider-box {
     text-align: center;
 }
 
 .divider {
     height: 50px;
+    margin-top: 7%;
     margin-bottom: 7%;
 }
 
@@ -125,13 +129,14 @@ button:focus {
 
 .scrollToTop.mat-mini-fab{
     position: fixed;
-    background-color: transparent;
+    background-color: var(--background-default);
     top: auto;
     left: auto;
     right: 30px;
     bottom: 30px;
     box-shadow: none;
     border: 1px solid var(--secondary);
+    z-index: 10;
 
     .mat-icon {
         transform: rotate(90deg);
@@ -162,7 +167,6 @@ button:focus {
   .section {
       padding-right: 15px;
       padding-left: 15px;
-      padding-top: 10%;
   }
 
   .background {
@@ -187,7 +191,12 @@ button:focus {
     text-align: center;
   }
 
+  p, span {
+    font-size: 16px;
+  }
+
   .divider {
+    margin-top: 10%;
     margin-bottom: 10%;
   }
 

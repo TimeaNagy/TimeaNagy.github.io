@@ -27,7 +27,7 @@
   "galleryWreaths": "Vence",
   "galleryIkebana": "Ikebany",
   "galleryDecorations": "Dekorácie",
-  "galleryBoxes": "Kvetinové boxy",
+  "galleryBoxes": "Boxy",
   "footer.name": "Obchodné meno: Eva Mészárosová",
   "footer.address": "Miesto podnikania: 1. mája 256/10, Nová Dedinka 90029",
   "footer.ico": "IČO: 46434241",
@@ -52,5 +52,5 @@
   "productservices.hygene.text": "V našom netradičnom kvetinárstve okrem kvetov a dekorácií nájdete okrem iných aj kozmetické produkty na starostlivosť o pleť, vonné oleje alebo šampóny na vlasy.",
   "productservices.orders.title": "Objednávky",
   "productservices.orders.text": "Nie je čas sa zastaviť v kvetinárstve počas rušných dní cez týzdeň? Žiadny problém, vykonajte Vašu objednávku telefonicky alebo prídite cez víkend v sobotu, keď sme pre Vás k dispozícií. Kontaktné údaje a otváraciu dobu nájdete",
-  "productservices.orders.ref": "tu."
+  "productservices.orders.ref": "tu"
 }
