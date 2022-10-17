@@ -83,6 +83,21 @@
   background: rgba(0, 0, 0, 0.7);
 }
 
+@media only screen and (max-width: $tablet-resolution) {
+  .gallery-container {
+    height: 395px;
+    width: calc(var(--picture-count) * 395px);
+  }
+
+  .dialog-img {
+    display: block;
+    max-width:540px;
+    max-height:540px;
+    width: auto;
+    height: auto;
+  }
+}
+
 @media only screen and (max-width: $mobile-resolution) {
   .mat-tab-labels {
     display: inline-flex !important;
@@ -116,24 +131,10 @@
 
   .dialog-img {
     display: block;
-    max-width:540px;
-    max-height:540px;
+    max-width:400px;
+    max-height:400px;
     width: auto;
     height: auto;
   }
 }
 
-@media only screen and (max-width: $tablet-resolution) {
-  .gallery-container {
-    height: 395px;
-    width: calc(var(--picture-count) * 395px);
-  }
-
-  .dialog-img {
-    display: block;
-    max-width:540px;
-    max-height:540px;
-    width: auto;
-    height: auto;
-  }
-}
