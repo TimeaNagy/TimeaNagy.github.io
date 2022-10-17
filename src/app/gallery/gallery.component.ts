@@ -27,8 +27,8 @@ export class GalleryComponent {
   ];
 
   folderInfo = [
-    { name: 'bouquet', pictureCount: 99 },
-    { name: 'wreath', pictureCount: 71 },
+    { name: 'bouquet', pictureCount: 57 },
+    { name: 'wreath', pictureCount: 54 },
     { name: 'ikebana', pictureCount: 22 },
     { name: 'decoration', pictureCount: 46 },
     { name: 'box', pictureCount: 58 }

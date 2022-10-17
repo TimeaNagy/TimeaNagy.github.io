@@ -163,6 +163,19 @@ button:focus {
     padding: 0px;
 }
 
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+    overflow-y: scroll;
+    background: var(--background-primary);
+    box-shadow: inset 0 0 4px #ffffff;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: var(--secondary);
+    border-radius: 12px;
+  }
+
 @media only screen and (max-width: $mobile-resolution) {
   .section {
       padding-right: 15px;
