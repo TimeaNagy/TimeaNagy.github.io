@@ -30,8 +30,8 @@ export class GalleryComponent {
     { name: 'bouquet', pictureCount: 57 },
     { name: 'wreath', pictureCount: 54 },
     { name: 'ikebana', pictureCount: 22 },
-    { name: 'decoration', pictureCount: 46 },
-    { name: 'box', pictureCount: 58 }
+    { name: 'decoration', pictureCount: 45 },
+    { name: 'box', pictureCount: 54 }
   ];
 
   constructor(public dialog: MatDialog, private elem: ElementRef) {
